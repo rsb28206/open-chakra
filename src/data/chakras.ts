@@ -1,0 +1,102 @@
+import { Chakra } from '../types/chakra';
+
+export const chakras: Chakra[] = [
+  {
+    id: 'root',
+    name: 'Root Chakra',
+    nameJa: 'ルートチャクラ',
+    color: '#DC2626',
+    frequency: '194.18Hz',
+    position: '尾てい骨',
+    keywords: ['安定', '安全', 'グラウンディング'],
+    description: '生命力の基盤となるチャクラ。安定感と安心感をもたらします。',
+    yoga: ['山のポーズ', 'チャイルドポーズ', '戦士のポーズI'],
+    food: ['根菜類', '赤い食べ物', 'プロテイン'],
+    daily: ['足裏で大地を感じる', '規則正しい生活', '深呼吸'],
+    gradient: 'from-red-500 to-red-600'
+  },
+  {
+    id: 'sacral',
+    name: 'Sacral Chakra',
+    nameJa: 'サクラルチャクラ',
+    color: '#EA580C',
+    frequency: '210.42Hz',
+    position: 'へその下',
+    keywords: ['創造性', '情熱', '感情'],
+    description: '創造性と感情を司るチャクラ。情熱と喜びを呼び覚まします。',
+    yoga: ['女神のポーズ', 'ツイスト', '橋のポーズ'],
+    food: ['オレンジ色の食べ物', 'ナッツ類', 'スパイス'],
+    daily: ['創造的な活動', '感情の表現', 'ダンス'],
+    gradient: 'from-orange-500 to-orange-600'
+  },
+  {
+    id: 'solar',
+    name: 'Solar Plexus',
+    nameJa: 'ソーラープレクサス',
+    color: '#CA8A04',
+    frequency: '528Hz',
+    position: 'みぞおち',
+    keywords: ['自信', '意志力', '個人の力'],
+    description: '自己実現と意志力のチャクラ。自信と決断力を高めます。',
+    yoga: ['船のポーズ', '太陽礼拝', 'ツイスト'],
+    food: ['黄色い食べ物', '穀物', 'レモン'],
+    daily: ['自分の意見を持つ', '決断する', '目標設定'],
+    gradient: 'from-yellow-500 to-yellow-600'
+  },
+  {
+    id: 'heart',
+    name: 'Heart Chakra',
+    nameJa: 'ハートチャクラ',
+    color: '#16A34A',
+    frequency: '639Hz',
+    position: '胸の中央',
+    keywords: ['愛', '慈悲', 'つながり'],
+    description: '愛と調和のチャクラ。他者とのつながりと慈悲心を育みます。',
+    yoga: ['ラクダのポーズ', '胸を開くポーズ', '魚のポーズ'],
+    food: ['緑の野菜', 'ハーブティー', 'アボカド'],
+    daily: ['感謝の気持ち', '他者への思いやり', '許し'],
+    gradient: 'from-green-500 to-green-600'
+  },
+  {
+    id: 'throat',
+    name: 'Throat Chakra',
+    nameJa: 'スロートチャクラ',
+    color: '#2563EB',
+    frequency: '741Hz',
+    position: '喉',
+    keywords: ['表現', 'コミュニケーション', '真実'],
+    description: '表現力とコミュニケーションのチャクラ。真実を語る力を与えます。',
+    yoga: ['肩立ちのポーズ', '首のストレッチ', '魚のポーズ'],
+    food: ['青い食べ物', '水分', 'ハーブティー'],
+    daily: ['正直な表現', '積極的なコミュニケーション', '歌う'],
+    gradient: 'from-blue-500 to-blue-600'
+  },
+  {
+    id: 'third-eye',
+    name: 'Third Eye',
+    nameJa: 'サードアイ',
+    color: '#7C3AED',
+    frequency: '852Hz',
+    position: '眉間',
+    keywords: ['直感', '洞察', '精神的な明晰さ'],
+    description: '直感と洞察力のチャクラ。内なる知恵にアクセスします。',
+    yoga: ['瞑想姿勢', '前屈', 'チャイルドポーズ'],
+    food: ['紫の食べ物', 'オメガ3脂肪酸', 'ダークチョコレート'],
+    daily: ['内なる声に耳を傾ける', '瞑想', '日記を書く'],
+    gradient: 'from-purple-500 to-purple-600'
+  },
+  {
+    id: 'crown',
+    name: 'Crown Chakra',
+    nameJa: 'クラウンチャクラ',
+    color: '#9333EA',
+    frequency: '963Hz',
+    position: '頭頂',
+    keywords: ['スピリチュアリティ', '宇宙との一体感', '悟り'],
+    description: '最高次のチャクラ。スピリチュアルな覚醒と宇宙との一体感をもたらします。',
+    yoga: ['蓮のポーズ', '瞑想', 'シャバーサナ'],
+    food: ['軽食', '紫の食べ物', '断食'],
+    daily: ['静寂の時間', 'スピリチュアルな学び', '祈り'],
+    gradient: 'from-violet-500 to-violet-600'
+  }
+];
